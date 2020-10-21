@@ -1,17 +1,21 @@
+'无参无返
 Sub Fn1
     MsgBox("hello")
 END SUB
 
+'有参无返
 Sub Fn2(a)
 
 End Sub
 
+'无参有返
 Function F3()
- F3=3
+    F3=3
 End Function
 
+'有参有返
 Function F4(x)
- F4=4
+    F4=4
 End Function
 
 
